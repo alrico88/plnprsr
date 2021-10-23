@@ -19,13 +19,13 @@ Using yarn:
 Using CommonJS
 
 ```javascript
-const parsePln = require('plnprsr');
+const {parsePln} = require('plnprsr');
 ```
 
 Using imports
 
 ```javascript
-import parsePln from 'plnprsr';
+import {parsePln} from 'plnprsr';
 ```
 
 Then

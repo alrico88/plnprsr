@@ -36,7 +36,7 @@
 
 #### Defined in
 
-models/RouteItem.ts:87
+[models/RouteItem.ts:87](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L87)
 
 ## Properties
 
@@ -50,7 +50,7 @@ If the waypoint is part of an airway, its identification
 
 #### Defined in
 
-models/RouteItem.ts:37
+[models/RouteItem.ts:37](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L37)
 
 ___
 
@@ -64,7 +64,7 @@ The altitude for this leg
 
 #### Defined in
 
-models/RouteItem.ts:53
+[models/RouteItem.ts:53](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L53)
 
 ___
 
@@ -78,7 +78,7 @@ Waypoint's coordinates [lon, lat]
 
 #### Defined in
 
-models/RouteItem.ts:21
+[models/RouteItem.ts:21](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L21)
 
 ___
 
@@ -92,7 +92,7 @@ The distance from the previous waypoint
 
 #### Defined in
 
-models/RouteItem.ts:61
+[models/RouteItem.ts:61](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L61)
 
 ___
 
@@ -106,7 +106,7 @@ Waypoint's ID
 
 #### Defined in
 
-models/RouteItem.ts:13
+[models/RouteItem.ts:13](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L13)
 
 ___
 
@@ -120,7 +120,7 @@ The ICAO name of the waypoint
 
 #### Defined in
 
-models/RouteItem.ts:45
+[models/RouteItem.ts:45](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L45)
 
 ___
 
@@ -134,7 +134,7 @@ The runway the SID or STAR belongs to, if any
 
 #### Defined in
 
-models/RouteItem.ts:85
+[models/RouteItem.ts:85](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L85)
 
 ___
 
@@ -148,7 +148,7 @@ The SID the waypoint belongs to, if any
 
 #### Defined in
 
-models/RouteItem.ts:69
+[models/RouteItem.ts:69](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L69)
 
 ___
 
@@ -162,7 +162,7 @@ The STAR the waypoint belongs to, if any
 
 #### Defined in
 
-models/RouteItem.ts:77
+[models/RouteItem.ts:77](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L77)
 
 ___
 
@@ -176,4 +176,4 @@ The type of the waypoint, VOR, NDB, USER...
 
 #### Defined in
 
-models/RouteItem.ts:29
+[models/RouteItem.ts:29](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L29)

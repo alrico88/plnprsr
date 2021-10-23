@@ -14,13 +14,13 @@
 
 ### Functions
 
-- [default](modules.md#default)
+- [parsePln](modules.md#parsepln)
 
 ## Functions
 
-### default
+### parsePln
 
-▸ **default**(`planXml`): [`FlightPlan`](classes/FlightPlan.md)
+▸ **parsePln**(`planXml`): [`FlightPlan`](classes/FlightPlan.md)
 
 Parse a PLN XML string into JSON
 
@@ -40,4 +40,4 @@ The parsed Flight Plan
 
 #### Defined in
 
-index.ts:18
+[index.ts:12](https://github.com/alrico88/plnprsr/blob/master/src/index.ts#L12)

@@ -28,7 +28,7 @@
 
 #### Defined in
 
-models/Procedure.ts:18
+[models/Procedure.ts:18](https://github.com/alrico88/plnprsr/blob/master/src/models/Procedure.ts#L18)
 
 ## Properties
 
@@ -42,7 +42,7 @@ The procedure's name
 
 #### Defined in
 
-models/Procedure.ts:8
+[models/Procedure.ts:8](https://github.com/alrico88/plnprsr/blob/master/src/models/Procedure.ts#L8)
 
 ___
 
@@ -56,4 +56,4 @@ The runway the procedure belongs to
 
 #### Defined in
 
-models/Procedure.ts:16
+[models/Procedure.ts:16](https://github.com/alrico88/plnprsr/blob/master/src/models/Procedure.ts#L16)

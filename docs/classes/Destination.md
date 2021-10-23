@@ -29,7 +29,7 @@
 
 #### Defined in
 
-models/Destination.ts:37
+[models/Destination.ts:37](https://github.com/alrico88/plnprsr/blob/master/src/models/Destination.ts#L37)
 
 ## Properties
 
@@ -43,7 +43,7 @@ The destination airport's altitude
 
 #### Defined in
 
-models/Destination.ts:35
+[models/Destination.ts:35](https://github.com/alrico88/plnprsr/blob/master/src/models/Destination.ts#L35)
 
 ___
 
@@ -57,7 +57,7 @@ The coordinates [lon, lat] of the destination airport
 
 #### Defined in
 
-models/Destination.ts:27
+[models/Destination.ts:27](https://github.com/alrico88/plnprsr/blob/master/src/models/Destination.ts#L27)
 
 ___
 
@@ -71,7 +71,7 @@ The destination airport's ICAO
 
 #### Defined in
 
-models/Destination.ts:11
+[models/Destination.ts:11](https://github.com/alrico88/plnprsr/blob/master/src/models/Destination.ts#L11)
 
 ___
 
@@ -85,4 +85,4 @@ The destination airport's name
 
 #### Defined in
 
-models/Destination.ts:19
+[models/Destination.ts:19](https://github.com/alrico88/plnprsr/blob/master/src/models/Destination.ts#L19)
