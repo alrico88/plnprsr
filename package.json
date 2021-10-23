@@ -1,7 +1,7 @@
 {
   "name": "plnprsr",
-  "version": "0.1.0",
-  "description": "Parse Flight Simulator .PLN XML files into JSON",
+  "version": "1.0.0",
+  "description": "Parse Flight Simulator .pln XML files into JSON",
   "source": "src/index.ts",
   "main": "./dist/index.js",
   "module": "./dist/index.umd.js",
