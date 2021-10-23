@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LEMD to LEAL</Title>
+        <FPType>IFR</FPType>
+        <RouteType>HighAlt</RouteType>
+        <CruisingAlt>25000</CruisingAlt>
+        <DepartureID>LEMD</DepartureID>
+        <DepartureLLA>N40° 31' 21.50",W3° 34' 29.31",+001998.00</DepartureLLA>
+        <DestinationID>LEAL</DestinationID>
+        <DestinationLLA>N38° 16' 56.00",W0° 33' 29.00",+000142.00</DestinationLLA>
+        <Descr>LEMD, LEAL</Descr>
+        <DeparturePosition>18R</DeparturePosition>
+        <DepartureName>Barajas</DepartureName>
+        <DestinationName>Alacant/Alicante</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LEMD">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 28' 20.00",W3° 33' 39.00",+001998.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEMD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="RW36R">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 30' 3.97",W3° 33' 33.15",+001998.00</WorldPosition>
+            <DepartureFP>NAND1D</DepartureFP>
+            <RunwayNumberFP>36</RunwayNumberFP>
+            <RunwayDesignatorFP>RIGHT</RunwayDesignatorFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="DE36R">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N40° 31' 57.44",W3° 33' 33.77",+003530.78</WorldPosition>
+            <DepartureFP>NAND1D</DepartureFP>
+            <RunwayNumberFP>36</RunwayNumberFP>
+            <RunwayDesignatorFP>RIGHT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAORegion>LE</ICAORegion>
+                <ICAOIdent>DE36R</ICAOIdent>
+                <ICAOAirport>LEMD</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="BRA/5.8Nm/">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 33' 55.55",W3° 32' 52.11",+005182.36</WorldPosition>
+            <DepartureFP>NAND1D</DepartureFP>
+            <RunwayNumberFP>36</RunwayNumberFP>
+            <RunwayDesignatorFP>RIGHT</RunwayDesignatorFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="D222J">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N40° 43' 40.46",W3° 23' 25.66",+015328.92</WorldPosition>
+            <DepartureFP>NAND1D</DepartureFP>
+            <RunwayNumberFP>36</RunwayNumberFP>
+            <RunwayDesignatorFP>RIGHT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAORegion>LE</ICAORegion>
+                <ICAOIdent>D222J</ICAOIdent>
+                <ICAOAirport>LEMD</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Intercepta">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 37' 32.87",W3° 17' 15.36",+021577.37</WorldPosition>
+            <DepartureFP>NAND1D</DepartureFP>
+            <RunwayNumberFP>36</RunwayNumberFP>
+            <RunwayDesignatorFP>RIGHT</RunwayDesignatorFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="PDT">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N40° 15' 10.51",W3° 20' 52.90",+025000.00</WorldPosition>
+            <DepartureFP>NAND1D</DepartureFP>
+            <RunwayNumberFP>36</RunwayNumberFP>
+            <RunwayDesignatorFP>RIGHT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAORegion>LE</ICAORegion>
+                <ICAOIdent>PDT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="NANDO">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N39° 59' 19.90",W2° 10' 28.40",+025000.00</WorldPosition>
+            <DepartureFP>NAND1D</DepartureFP>
+            <RunwayNumberFP>36</RunwayNumberFP>
+            <RunwayDesignatorFP>RIGHT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAORegion>LE</ICAORegion>
+                <ICAOIdent>NANDO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="MOTIL">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N39° 32' 19.60",W1° 44' 42.70",+025000.00</WorldPosition>
+            <ATCAirway>UL150</ATCAirway>
+            <ICAO>
+                <ICAORegion>LE</ICAORegion>
+                <ICAOIdent>MOTIL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SOSAV">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N39° 16' 24.59",W1° 29' 43.70",+025000.00</WorldPosition>
+            <ATCAirway>UL150</ATCAirway>
+            <ICAO>
+                <ICAORegion>LE</ICAORegion>
+                <ICAOIdent>SOSAV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ASTRO">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N39° 1' 27.79",W1° 15' 46.80",+025000.00</WorldPosition>
+            <ArrivalFP>ASTR3N</ArrivalFP>
+            <RunwayNumberFP>28</RunwayNumberFP>
+            <ICAO>
+                <ICAORegion>LE</ICAORegion>
+                <ICAOIdent>ASTRO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="NARGO">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N38° 44' 17.89",W0° 59' 55.20",+021820.38</WorldPosition>
+            <ArrivalFP>ASTR3N</ArrivalFP>
+            <RunwayNumberFP>28</RunwayNumberFP>
+            <ICAO>
+                <ICAORegion>LE</ICAORegion>
+                <ICAOIdent>NARGO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="VILNA">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N38° 32' 23.00",W0° 49' 0.30",+016905.25</WorldPosition>
+            <ArrivalFP>ASTR3N</ArrivalFP>
+            <RunwayNumberFP>28</RunwayNumberFP>
+            <ICAO>
+                <ICAORegion>LE</ICAORegion>
+                <ICAOIdent>VILNA</ICAOIdent>
+                <ICAOAirport>LEAL</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="D040T">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N38° 31' 24.88",W0° 17' 49.50",+008099.19</WorldPosition>
+            <ArrivalFP>ASTR3N</ArrivalFP>
+            <RunwayNumberFP>28</RunwayNumberFP>
+            <ICAO>
+                <ICAORegion>LE</ICAORegion>
+                <ICAOIdent>D040T</ICAOIdent>
+                <ICAOAirport>LEAL</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="BESOR">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N38° 27' 59.30",W0° 13' 44.60",+006522.37</WorldPosition>
+            <ArrivalFP>ASTR3N</ArrivalFP>
+            <RunwayNumberFP>28</RunwayNumberFP>
+            <ICAO>
+                <ICAORegion>LE</ICAORegion>
+                <ICAOIdent>BESOR</ICAOIdent>
+                <ICAOAirport>LEAL</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEAL">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 16' 56.00",W0° 33' 29.00",+000142.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEAL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

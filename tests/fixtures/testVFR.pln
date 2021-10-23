@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LEMD to LEAL</Title>
+        <FPType>VFR</FPType>
+        <RouteType>LowAlt</RouteType>
+        <CruisingAlt>5000</CruisingAlt>
+        <DepartureID>LEMD</DepartureID>
+        <DepartureLLA>N40° 31' 21.50",W3° 34' 29.31",+001998.00</DepartureLLA>
+        <DestinationID>LEAL</DestinationID>
+        <DestinationLLA>N38° 16' 56.00",W0° 33' 29.00",+000142.00</DestinationLLA>
+        <Descr>LEMD, LEAL</Descr>
+        <DeparturePosition>18R</DeparturePosition>
+        <DepartureName>Barajas</DepartureName>
+        <DestinationName>Alacant/Alicante</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LEMD">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 28' 20.00",W3° 33' 39.00",+001998.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEMD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 24' 22.24",W2° 43' 50.66",+025000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 39' 23.24",W2° 13' 11.55",+025000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 52' 14.59",W1° 6' 7.26",+014756.80</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LEAL">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 16' 56.00",W0° 33' 29.00",+000142.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LEAL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
