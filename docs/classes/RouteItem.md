@@ -12,6 +12,7 @@
 
 - [airway](RouteItem.md#airway)
 - [altitude](RouteItem.md#altitude)
+- [bearing](RouteItem.md#bearing)
 - [coords](RouteItem.md#coords)
 - [distance](RouteItem.md#distance)
 - [id](RouteItem.md#id)
@@ -36,7 +37,7 @@
 
 #### Defined in
 
-[models/RouteItem.ts:87](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L87)
+[models/RouteItem.ts:96](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L96)
 
 ## Properties
 
@@ -50,7 +51,7 @@ If the waypoint is part of an airway, its identification
 
 #### Defined in
 
-[models/RouteItem.ts:37](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L37)
+[models/RouteItem.ts:38](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L38)
 
 ___
 
@@ -64,7 +65,21 @@ The altitude for this leg
 
 #### Defined in
 
-[models/RouteItem.ts:53](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L53)
+[models/RouteItem.ts:54](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L54)
+
+___
+
+### bearing
+
+• **bearing**: `number`
+
+Bearing from the previous waypoint
+
+**`memberof`** RouteItem
+
+#### Defined in
+
+[models/RouteItem.ts:70](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L70)
 
 ___
 
@@ -78,7 +93,7 @@ Waypoint's coordinates [lon, lat]
 
 #### Defined in
 
-[models/RouteItem.ts:21](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L21)
+[models/RouteItem.ts:22](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L22)
 
 ___
 
@@ -92,7 +107,7 @@ The distance from the previous waypoint
 
 #### Defined in
 
-[models/RouteItem.ts:61](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L61)
+[models/RouteItem.ts:62](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L62)
 
 ___
 
@@ -106,7 +121,7 @@ Waypoint's ID
 
 #### Defined in
 
-[models/RouteItem.ts:13](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L13)
+[models/RouteItem.ts:14](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L14)
 
 ___
 
@@ -120,7 +135,7 @@ The ICAO name of the waypoint
 
 #### Defined in
 
-[models/RouteItem.ts:45](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L45)
+[models/RouteItem.ts:46](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L46)
 
 ___
 
@@ -134,7 +149,7 @@ The runway the SID or STAR belongs to, if any
 
 #### Defined in
 
-[models/RouteItem.ts:85](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L85)
+[models/RouteItem.ts:94](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L94)
 
 ___
 
@@ -148,7 +163,7 @@ The SID the waypoint belongs to, if any
 
 #### Defined in
 
-[models/RouteItem.ts:69](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L69)
+[models/RouteItem.ts:78](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L78)
 
 ___
 
@@ -162,7 +177,7 @@ The STAR the waypoint belongs to, if any
 
 #### Defined in
 
-[models/RouteItem.ts:77](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L77)
+[models/RouteItem.ts:86](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L86)
 
 ___
 
@@ -176,4 +191,4 @@ The type of the waypoint, VOR, NDB, USER...
 
 #### Defined in
 
-[models/RouteItem.ts:29](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L29)
+[models/RouteItem.ts:30](https://github.com/alrico88/plnprsr/blob/master/src/models/RouteItem.ts#L30)

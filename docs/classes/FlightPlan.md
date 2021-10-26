@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[models/FlightPlan.ts:90](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L90)
+[models/FlightPlan.ts:91](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L91)
 
 ## Properties
 
@@ -49,7 +49,7 @@ The cruising altitude in feet
 
 #### Defined in
 
-[models/FlightPlan.ts:40](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L40)
+[models/FlightPlan.ts:41](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L41)
 
 ___
 
@@ -63,7 +63,7 @@ The departure airport's details
 
 #### Defined in
 
-[models/FlightPlan.ts:48](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L48)
+[models/FlightPlan.ts:49](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L49)
 
 ___
 
@@ -77,7 +77,7 @@ The destination airport's details
 
 #### Defined in
 
-[models/FlightPlan.ts:56](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L56)
+[models/FlightPlan.ts:57](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L57)
 
 ___
 
@@ -91,7 +91,7 @@ Whether the plan is VFR, IFR...
 
 #### Defined in
 
-[models/FlightPlan.ts:24](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L24)
+[models/FlightPlan.ts:25](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L25)
 
 ___
 
@@ -105,7 +105,7 @@ The route from departure to destination
 
 #### Defined in
 
-[models/FlightPlan.ts:64](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L64)
+[models/FlightPlan.ts:65](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L65)
 
 ___
 
@@ -119,7 +119,7 @@ The route type, LowAlt, HighAlt...
 
 #### Defined in
 
-[models/FlightPlan.ts:32](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L32)
+[models/FlightPlan.ts:33](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L33)
 
 ___
 
@@ -133,7 +133,7 @@ A departure SID, if any
 
 #### Defined in
 
-[models/FlightPlan.ts:80](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L80)
+[models/FlightPlan.ts:81](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L81)
 
 ___
 
@@ -147,7 +147,7 @@ An arrival STAR, if any
 
 #### Defined in
 
-[models/FlightPlan.ts:88](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L88)
+[models/FlightPlan.ts:89](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L89)
 
 ___
 
@@ -161,7 +161,7 @@ The title given to the Flight Plan
 
 #### Defined in
 
-[models/FlightPlan.ts:16](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L16)
+[models/FlightPlan.ts:17](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L17)
 
 ___
 
@@ -175,4 +175,4 @@ The total route's distance in nautical miles
 
 #### Defined in
 
-[models/FlightPlan.ts:72](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L72)
+[models/FlightPlan.ts:73](https://github.com/alrico88/plnprsr/blob/master/src/models/FlightPlan.ts#L73)
