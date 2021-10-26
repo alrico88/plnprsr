@@ -127,7 +127,7 @@ export default class RouteItem {
       );
 
       this.distance = convertMetersToNM(distance);
-      this.bearing = processNumber(getGreatCircleBearing(currPoint, prevPoint), 0);
+      this.bearing = processNumber(getGreatCircleBearing(prevPoint, currPoint), 0);
     }
 
     if (!is.nullOrUndefined(input.DepartureFP)) {
