@@ -1,5 +1,6 @@
 import is from '@sindresorhus/is';
-import { getDistance } from 'geolib';
+import { getDistance, getGreatCircleBearing } from 'geolib';
+import { processNumber } from 'number-helper-functions';
 import { convertMetersToNM, getRunway, parseCoordinates } from '../helpers/parsers';
 import { RouteItemInput } from './Input';
 
@@ -61,6 +62,14 @@ export default class RouteItem {
   public distance: number;
 
   /**
+   * Bearing from the previous waypoint
+   *
+   * @type {number}
+   * @memberof RouteItem
+   */
+  public bearing: number;
+
+  /**
    * The SID the waypoint belongs to, if any
    *
    * @type {string}
@@ -95,24 +104,30 @@ export default class RouteItem {
 
     if (is.nullOrUndefined(prevWaypoint)) {
       this.distance = 0;
+      this.bearing = 0;
     } else {
       const {
         longitude: prevLon,
         latitude: prevLat,
       } = parseCoordinates(prevWaypoint.WorldPosition);
 
+      const currPoint = {
+        latitude,
+        longitude,
+      };
+
+      const prevPoint = {
+        lat: prevLat,
+        lon: prevLon,
+      };
+
       const distance = getDistance(
-        {
-          latitude,
-          longitude,
-        },
-        {
-          lat: prevLat,
-          lon: prevLon,
-        },
+        currPoint,
+        prevPoint,
       );
 
       this.distance = convertMetersToNM(distance);
+      this.bearing = processNumber(getGreatCircleBearing(currPoint, prevPoint), 0);
     }
 
     if (!is.nullOrUndefined(input.DepartureFP)) {

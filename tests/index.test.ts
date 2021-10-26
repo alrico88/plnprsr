@@ -35,4 +35,10 @@ describe('Test parsing FS 2020 IFR flight plans', () => {
   it('Should read the crusing altitude correctly', () => {
     expect(parsedPlan.cruisingAltitude).toBe(25000);
   });
+
+  it('Should not have bearings outside of bounds', () => {
+    const routeItems = parsedPlan.route.map((d) => d.bearing);
+
+    expect(routeItems.findIndex((d) => d < 0 || d > 360)).toBe(-1);
+  })
 });

@@ -1,5 +1,6 @@
 import { calcSum } from 'math-helper-functions';
 import is from '@sindresorhus/is';
+import { processNumber } from 'number-helper-functions';
 import Departure from './Departure';
 import Destination from './Destination';
 import { FlightPlanInput } from './Input';
@@ -97,7 +98,7 @@ export default class FlightPlan {
     this.route = input.ATCWaypoint.map(
       (d, index) => new RouteItem(d, input.ATCWaypoint[index - 1]),
     );
-    this.totalDistance = calcSum(this.route, 'distance');
+    this.totalDistance = processNumber(calcSum(this.route, 'distance'), 2);
 
     const withSid = this.route.find((d) => !is.nullOrUndefined(d.sid));
     const withStar = this.route.find((d) => !is.nullOrUndefined(d.star));
